@@ -1,0 +1,24 @@
+Project Requirements
+
+To complete the project you must submit your project, which will include Python code (>=3.6) that implements your project. Your project must include (at least) one Jupyter notebook, one python file (a module file), and one test file. The Jupyter notebook file will minimally include a description of the project and code that demonstrates your project, organized in cells.
+
+The actual code for the project can be organized into either the notebook, and/or into python files, as either module files and/or scripts. Exactly where and how you organize the code can and should be decided by the project topic itself. For example, projects that are more focused on functions and classes may be more organized into a module organization. For some projects, the code may be well organized into a script that executes your project. For other projects, with more interactive components, much of the code may be presented within the Jupyter notebook. Regardless of the project, the design should be modular and include original code.
+
+Projects are individual, and each person needs to submit a project including (at least some) unique and original code. Projects can also include code that comes directly from the assignments, and/or from working with other students on project ideas, but this should be clearly marked and attributed in your submissions. More details on external code are included below.
+
+Submitting Your Project
+
+You will be submitting either 1) the project folder on datahub. This submitted folder must be structured in some organized manner. We provide the following as a suggestion, but you can use a different file structure if necessary:
+
+MyProjectFolder/
+    ProjectNotebook.ipynb
+    my_module/
+        classes.py
+        functions.py
+    test_functions.py
+    scripts/
+        my_script.py
+    requirements.txt
+
+
+Note that not all of these files / sections are mandatory, and they do not have to use the names specified here - file names can be whatever you want, as long as the organization is clear and what kind of thing each file is is clear. You must include, at minimum, a Jupyter notebook, and some part of your code should be organized into a module, with a test file. The scripts section is optional, and should be included if it makes sense to organize your function into an executable script. The requirements text file (optional) should list any modules you use in your project that are not included in the anaconda distribution.
